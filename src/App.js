@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/sections/Data/Main';
+
 import Data from './components/store/Data';
 
 function App() {
