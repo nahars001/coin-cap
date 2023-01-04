@@ -23,8 +23,8 @@ let tableBody = document.getElementsByTagName("tbody")[0];
 
   //exp
     function selectFewerProps(show) {
-        const { rank,  name, price, marketCap, priceChange1d, volume, totalSupply } = show;
-        return { rank,  name, price, marketCap, priceChange1d, volume, totalSupply };
+        const { rank, name, price, marketCap, vwap , totalSupply ,volume, priceChange1d} = show;
+        return { rank, name, price, marketCap, vwap, totalSupply, volume, priceChange1d };
     }
 
     const fllteredData = props.data.map(selectFewerProps);

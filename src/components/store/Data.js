@@ -13,7 +13,7 @@ class Data extends React.Component {
 
         
         fetch(
-            "https://api.coinstats.app/public/v1/coins?skip=0&limit=20&currency=EUR")
+            "https://api.coinstats.app/public/v1/coins?skip=0&limit=40&currency=USD")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
